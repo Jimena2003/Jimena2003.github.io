@@ -1,0 +1,14 @@
+
+<html>
+   <script>
+   	var text = prompt("Enter Caesar Cipher: ");
+var shift = prompt("Enter shift (n units right): ");
+var text2 = text.replace(/\s/g, '');                                                                                                                                     
+var i;
+for (i in text2) { 
+alert(String.fromCharCode((text2.charCodeAt(i)) - (parseInt(shift))));
+}
+   </script>
+</html>
+
+
